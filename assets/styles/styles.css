@@ -1,3 +1,7 @@
+body {
+    background-image: url(../images/pipes/pipes.png);
+}
+
 .jumbotron {
     text-align: center;
     background-color: #305582;
@@ -18,6 +22,7 @@
 #train-schedule {
     border: 1px #19233D solid;
     border-radius: 5px;
+    background-color: white;
 }
 
 #addTrain {
@@ -25,6 +30,7 @@
     padding-bottom: 20px;
     margin-bottom: 50px;
     border-radius: 5px;
+    background-color: white;
 }
 
 #submitButton {
@@ -33,10 +39,8 @@
     color: #B9E3F3;
 }
 
-.footer {
+footer {
     color: #B9E3F3;
     background-color: #19233D;
-    padding-top: 10px;
-    padding-bottom: 1px;
     padding-left: 10px;
 }
