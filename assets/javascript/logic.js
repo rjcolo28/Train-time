@@ -19,14 +19,9 @@ var firstTime = "";
 var frequency = "";
 
 function timeCalc(firstTime, frequency) {
-  console.log(firstTime);
-  console.log(frequency);
   var timeConverted = moment(firstTime, "HH:mm").subtract(1, "years");
-  console.log(timeConverted);
   var diffTime = moment().diff(moment(timeConverted), "minutes");
-  console.log(diffTime);
   var tRemainder = diffTime % frequency;
-  console.log(tRemainder);
   var minutes = frequency - tRemainder;
   return minutes;
 };

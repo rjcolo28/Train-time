@@ -42,5 +42,7 @@ body {
 footer {
     color: #B9E3F3;
     background-color: #19233D;
+    padding-top: 20px;
     padding-left: 10px;
+    font-size: 12px;
 }
