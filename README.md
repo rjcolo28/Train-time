@@ -15,8 +15,10 @@ To input a new train, the user must fill in all the required forms. Once done, t
 
 ![alt text](READMEpics/trainDemo.gif)
 
-The data is also stored in the Firebase database.
+The data is stored in and retrieved from the Firebase database.
 
 ![alt text](READMEpics/database.png)
 
 The site also update the next train's arrival time and how many minutes away that time is every time the page is reloaded.
+
+![alt text](READMEpics/trainUpdate.gif)
